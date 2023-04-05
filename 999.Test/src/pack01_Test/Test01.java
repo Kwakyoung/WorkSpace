@@ -1,22 +1,14 @@
+package pack01_Test;
+
 import java.util.Scanner;
 
-public class HelloWorld {
+public class Test01 {
 	public static void main(String[] args) {
-
-		for (int i = 1; i <= 5; i++) {
-			for (int u = 1; u <= i; u++) {
-				System.out.print("★");
-			}
-			System.out.println();
-		}
-		
-		
-		System.out.println("=============================================");
-		
 		System.out.println("구구단 출력");
 		System.out.println("2 미만의 숫자를 입력하면 구구단을 출력하지 않습니다");
 		Scanner sc = new Scanner(System.in);
 		String inputData = sc.nextLine();
+		
 		int multi = Integer.parseInt(inputData);
 		if (multi<2) {
 			System.out.println("구구단을 종료합니다");
@@ -30,8 +22,6 @@ public class HelloWorld {
 			}
 			
 			}
-		
-	
-
 	}
+
 }
